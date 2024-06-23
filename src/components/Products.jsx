@@ -12,13 +12,13 @@ const products = [
     {
         title: 'Industrial Levels',
         description: 'Thuan Hai invests, installs, and operates boiler systems. A pioneer in steam, heat, and electricity solutions.',
-        image: '/images/logo/3.jpg',
+        image: '/images/logo/2.jpg',
         price: 'RS: 1000',
     },
     {
         title: 'Commercial Levels',
         description: 'Thuan Hai owns a closed supply chain with a large warehouse system, stretching from North to South.',
-        image: '/images/logo/3.jpg',
+        image: '/images/logo/1.jpg',
         price: 'RS: 1500',
     },
 ];

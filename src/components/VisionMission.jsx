@@ -4,7 +4,7 @@ import { FaBullseye, FaRocket } from 'react-icons/fa';
 
 const VisionMission = () => {
     return (
-        <div className="py-16 bg-white text-green-800">
+        <div className="py-16 bg-white text-green-800 lg:px-20">
             <div className="container mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-10 text-green-600">VISION & MISSION</h2>
                 <div className="flex flex-col md:flex-row items-center justify-center space-y-10 md:space-y-0 md:space-x-20">

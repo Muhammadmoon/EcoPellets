@@ -6,7 +6,7 @@ const Sustainable = () => {
     <div className="bg-white  grid grid-cols-1 md:grid-cols-2 items-center  text-black py-12 px-6 md:px-12 lg:px-24 gap-6">
       <div className="w-full flex justify-center">
         <Image
-          src="/images/logo/hand.jpg" // Ensure this path matches your image
+          src="/images/logo/1.jpg" // Ensure this path matches your image
           alt="Thuan Hai Corporation Building"
           width={1000}
           height={800}
