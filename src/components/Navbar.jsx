@@ -15,12 +15,13 @@ function Navbar() {
     <nav className="bg-white p-6 ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Image
-            src="/images/logo/eco.jpeg"
-            alt="Logo"
-            width={180}
-            height={180}
-          />
+          
+        
+            <a  href="/" className="flex items-center space-x-2">
+              <Image src="/images/logo/eco.jpeg" alt="Logo" width={180} height={180} />
+              {/* <span className="text-black font-bold text-2xl">MyWebsite</span> */}
+            </a>
+    
           {/* <span className="text-black font-bold text-2xl">MyWebsite</span> */}
         </div>
         <button className="lg:hidden text-black" onClick={toggleSidebar}>
@@ -113,7 +114,9 @@ function Navbar() {
             </ul>
 
             <div className="flex items-center mt-10">
+            <a  href="/" className="flex items-center space-x-2">
     <Image src="/images/logo/eco.jpeg" alt="Logo" width={180} height={180} className="lg:w-40 lg:h-40" />
+    </a>
     {/* <span className="text-black font-bold text-2xl">MyWebsite</span> */}
   </div>
           </div>
