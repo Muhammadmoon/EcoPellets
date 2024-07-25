@@ -9,10 +9,11 @@ import Contact from '@/components/Contact';
 import Slider from '@/components/Slider';
 import Products from '@/components/Products';
 import Hand from '@/components/Hand';
-import CoreValues from '@/components/CoreValues';
 import VisionMission from '@/components/VisionMission';
 import Blog from '@/components/Blog';
 import Loader from '@/components/Loader';
+import Slider1 from '@/components/Slider1';
+
 
 function Page() {
   const [loading, setLoading] = useState(true);
@@ -32,15 +33,20 @@ function Page() {
         <Loader />
       ) : (
         <>
-      <FirstSection/>
+      {/* <FirstSection/> */}
+
+
+      <Slider1/>
       <StatisticsSection/>
-      <SecondSection/>
-      <Sustainable/>
-      <Slider/>
+      <Sustainable/> 
+      
       <Products/>
+      <SecondSection/>
+      
+      
       <Hand/>
-      <CoreValues/>
-      <VisionMission/>
+     
+      {/* <VisionMission/> */}
         </>
       )}
     </div>
