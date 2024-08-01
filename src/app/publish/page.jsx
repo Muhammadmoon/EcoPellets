@@ -32,7 +32,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.9 }}>
-            <Image src="/images/logo/bg3.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/logo/bg3.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 50 }} 
@@ -62,7 +62,7 @@ export default function Home() {
             initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.9 }}>
-            <Image src="/images/logo/bg2.jpeg" alt="Heat Energy" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/logo/bg2.jpeg" alt="Heat Energy" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </motion.div>
         </section>
 
@@ -75,7 +75,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.9 }}>
-            <Image src="/images/logo/bg4.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/logo/bg4.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 50 }} 
@@ -97,7 +97,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.9 }}>
-            <Image src="/images/logo/bg6.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/logo/bg6.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 50 }} 
@@ -123,7 +123,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.9 }}>
-            <Image src="/images/logo/bg1.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
+            <img src="/images/logo/bg1.jpeg" alt="Energy Image" width={500} height={300} className="rounded shadow-lg transform hover:scale-105 transition-transform duration-300" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, x: 50 }} 

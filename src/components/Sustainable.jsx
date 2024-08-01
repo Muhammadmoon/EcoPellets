@@ -46,7 +46,7 @@ const Sustainable = () => {
             animate={inView ? 'visible' : 'hidden'}
             variants={imageVariants}
           >
-            <Image
+            <img
               src="/images/logo/ru3.jpg"
               alt="Thuan Hai Corporation Building"
               width={600}

@@ -35,7 +35,7 @@ const Slider1 = () => {
                             </p>
                         </div>
                         <div className="w-full flex justify-center">
-                            <Image
+                            <img
                                 src="/images/logo/png3.png"
                                 alt="Renewable Energy"
                                 width={300}
@@ -59,7 +59,7 @@ const Slider1 = () => {
                             </p>
                         </div>
                         <div className="w-full flex justify-center">
-                            <Image
+                            <img
                                 src="/images/logo/png2.png"
                                 alt="Corporate Solutions"
                                 width={300}
@@ -83,7 +83,7 @@ const Slider1 = () => {
                             </p>
                         </div>
                         <div className="w-full flex justify-center">
-                            <Image
+                            <img
                                 src="/images/logo/png1.png"
                                 alt="Innovative Technologies"
                                 width={300}

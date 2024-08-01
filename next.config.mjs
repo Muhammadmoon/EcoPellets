@@ -8,6 +8,9 @@ const nextConfig = {
       }
       return config;
     },
+    output: 'export',
+    // unoptimized:true,
+
     reactStrictMode: true,
   };
   

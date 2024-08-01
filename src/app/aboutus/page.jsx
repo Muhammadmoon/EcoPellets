@@ -73,7 +73,7 @@ const AboutUs = () => {
                         animate={imageInView ? 'visible' : 'hidden'}
                         variants={imageVariants}
                     >
-                        <Image
+                        <img
                             src="/images/logo/ru4.png"
                             alt="Thuan Hai Corporation Building"
                             width={500}

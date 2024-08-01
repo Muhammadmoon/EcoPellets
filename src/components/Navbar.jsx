@@ -16,7 +16,7 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Link href="/" passHref>
-            <Image
+            <img
               src="/images/logo/eco.jpeg"
               alt="Logo"
               width={180}

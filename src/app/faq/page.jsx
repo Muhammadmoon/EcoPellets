@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useSpring, animated as a } from '@react-spring/web';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import 'tailwindcss/tailwind.css';
 
 const faqData = [
   {

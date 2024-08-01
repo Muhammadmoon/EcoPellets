@@ -27,7 +27,7 @@ const Sustainable = () => {
         </a>
       </div>
       <div className="md:w-full flex justify-center">
-        <Image
+        <img
           src="/images/logo/2.jpg" // Ensure this path matches your image
           alt="Thuan Hai Corporation Building"
           width={600}
