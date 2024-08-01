@@ -1,64 +1,50 @@
 'use client'
 import React from 'react';
 import { FaMicroscope, FaHandshake, FaUsers, FaBalanceScale, FaHeartbeat } from 'react-icons/fa';
-import '../app/CoreValues.css'
+import { FaHandHoldingHeart } from "react-icons/fa";
+
 
 const coreValues = [
     {
         title: 'INNOVATION',
-        description: 'Catching market trends to innovate energy solutions.',
-        icon: <FaMicroscope size={40} />,
+        description: 'Pushing the boundaries of renewable energy through innovation',
+        icon: <FaMicroscope size={60} />,
     },
     {
-        title: 'COMMITMENT',
-        description: 'Pledging stability, sustainable value, and cost optimization.',
-        icon: <FaHandshake size={40} />,
+        title: 'COMMUNITY',
+        description: 'Supporting and engaging with our local communities to drive collective progress',
+        icon: <FaHandshake size={60} />,
     },
     {
-        title: 'SHARING',
-        description: 'Share knowledge, train strong human resources.',
-        icon: <FaUsers size={40} />,
+        title: 'SUSTAINABILITY',
+        description: 'To promoting environmental stewardship through sustainable practices',
+        icon: <FaHandHoldingHeart size={60} />,
     },
     {
-        title: 'INTEGRITY',
-        description: 'Building customer trust through honesty.',
-        icon: <FaBalanceScale size={40} />,
+        title: 'QUALITY',
+        description: 'Ensure the highest standards in every aspect of our operations, from production to customer service',
+        icon: <FaBalanceScale size={60} />,
     },
-    {
-        title: 'DEDICATION',
-        description: 'Dedicated to research and development of products and services.',
-        icon: <FaHeartbeat size={40} />,
-    },
-];
+    ];
 
 const CoreValues = () => {
     return (
-        <div className="py-16 bg-gradient-to-r  text-black overflow-hidden mb-20">
-             <div className="text-center mb-12">
-            <h3 className="text-3xl font-extrabold text-gradient
-              bg-gradient-to-r
-              from-green-800
-              to-green-200
-              bg-clip-text
-              text-transparent">Core Values</h3>
-            <p className="mt-4 text-lg text-gray-600">
-              
-            </p>
-          </div>
-            <div className="container mx-auto px-4 mb-20 py-10">
-                <h2 className="text-3xl font-bold text-center mb-10 mt-20"></h2>
-                <div className="relative flex items-center justify-center">
-                    <div className="absolute w-full flex space-x-10 animate-marquee">
-                        {coreValues.map((value, index) => (
-                            <div key={index} className="flex flex-col items-center justify-center min-w-[200px] space-y-4">
-                                <div className="bg-green-600 text-white p-4 rounded-full">
-                                    {value.icon}
-                                </div>
-                                <h3 className="text-xl font-semibold">{value.title}</h3>
-                                <p className="text-center text-sm">{value.description}</p>
+        <div className="py-16 bg-gradient-to-r text-black overflow-hidden  mt-10">
+            <div className="text-center mb-12">
+            <h1 className="text-3xl font-bold mb-4 text-gray-900 animate-fadeIn text-center">Core Values</h1>
+            <div className="border-t-4 border-green-500 w-16 mb-6 animate-slideIn mx-auto"></div>
+            </div>
+            <div className="container mx-auto px-4 mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {coreValues.map((value, index) => (
+                        <div key={index} className="flex flex-col items-center justify-center space-y-4">
+                            <div className="bg-green-600 text-white p-4 rounded-full">
+                                {value.icon}
                             </div>
-                        ))}
-                    </div>
+                            <h3 className="text-xl font-semibold text-center">{value.title}</h3>
+                            <p className="text-center text-sm">{value.description}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

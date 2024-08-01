@@ -24,7 +24,7 @@ const Slider = () => {
                 className="rounded-lg shadow-lg"
             >
                 <SwiperSlide className="flex justify-center">
-                    <Image 
+                    <img
                         src="/images/logo/slide1.jpg" 
                         width={1200} 
                         height={700} 
@@ -33,7 +33,7 @@ const Slider = () => {
                     />
                 </SwiperSlide>
                 <SwiperSlide className="flex justify-center">
-                    <Image 
+                    <img 
                         src="/images/logo/slide2.jpg" 
                         width={1200} 
                         height={700} 
@@ -42,7 +42,7 @@ const Slider = () => {
                     />
                 </SwiperSlide>
                 <SwiperSlide className="flex justify-center">
-                    <Image 
+                    <img 
                         src="/images/logo/slide3.jpg" 
                         width={1200} 
                         height={700} 
