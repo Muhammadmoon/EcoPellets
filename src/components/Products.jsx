@@ -51,7 +51,7 @@ const ProductsAndSolutions = () => {
                             variants={itemVariants}
                         >
                             <div className="relative object-cover bg-white rounded-lg shadow-md overflow-hidden h-120 transform transition duration-300 hover:scale-105 hover:shadow-lg">
-                                <img
+                                <Image unoptimized={true} 
                                     src={product.image} 
                                     alt={product.title} 
                                     className="w-full h-64 object-cover pl-4" 
